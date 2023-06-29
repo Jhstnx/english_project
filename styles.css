@@ -9,29 +9,40 @@
     align-items: center;
 }
 
-.tittle {
-    margin-top: 40px;
-}
-
-.info {
-    margin-top: 20px;
-}
-
 .names {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.activityFirst {
-    margin-top: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.grade {
+    margin-top: 20px;
 }
 
-.container {
+.tittle {
+    margin-top: 60px;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.firstTarget {
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.activityFirst {
+    margin-top: 80px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    margin-left: 70px;
+}
+
+.informationBox {
     width: 45%;
     display: flex;
     align-items: center;
@@ -41,13 +52,14 @@
 
 .numeration {
     margin-top: -230px;
+    margin-left: 10px;
 }
 
 .character {
     width: 200px;
 }
 
-.containerOptions {
+.boxOptions {
     width: 60%;
     margin-top: 40px;
     margin-bottom: 30px;
