@@ -1,101 +1,114 @@
 * {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .names {
-    width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  color: gray;
 }
 
 .grade {
-    margin-top: 20px;
+  margin-top: 20px;
+  color: gray;
 }
 
 .tittle {
-    margin-top: 60px;
+  margin-top: 60px;
+  color: blue;
 }
 
 .info {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-.firstTarget, .secondTarget {
-    margin-top: 150px;
-    margin-left: 40px;
+.firstTarget,
+.secondTarget {
+  margin-top: 150px;
+  margin-left: 40px;
 }
 
 .activityFirst {
-    margin-top: 80px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 55px;
-    margin-left: 70px;
+  margin-top: 80px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+  margin-left: 70px;
 }
 
 .informationBox {
-    width: 45%;
-    display: flex;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 5px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .numeration {
-    margin-top: -230px;
-    margin-left: 10px;
+  margin-top: -230px;
+  margin-left: 10px;
+  color: blue;
 }
 
 .character {
-    width: 200px;
+  width: 200px;
 }
 
 .boxOptions {
-    width: 60%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+  width: 60%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 .options {
-    width: auto;
-    padding: 5px;
-    font-size: 20px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 5px;
-    cursor: pointer; 
+  width: auto;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .descriptionsBox {
-    margin-top: 50px;
-    margin-left: 90px;
-    margin-bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .description {
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .answerBox {
-    width: 30px;
-    text-align: center;
-  }
-  
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.answerBox {
+  width: 30px;
+  text-align: center;
+}
+
+.correct {
+    background-color: #72E985;
+}
+
+.wrong {
+    background-color: #F86D60;
+}
