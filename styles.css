@@ -28,14 +28,14 @@
     margin-top: 30px;
 }
 
-.firstTarget {
-    margin-top: 200px;
+.firstTarget, .secondTarget {
+    margin-top: 150px;
     margin-left: 40px;
 }
 
 .activityFirst {
     margin-top: 80px;
-    height: 100px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 55px;
@@ -78,3 +78,24 @@
     border-radius: 5px;
     cursor: pointer; 
 }
+
+.descriptionsBox {
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .description {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .answerBox {
+    width: 30px;
+    text-align: center;
+  }
+  
