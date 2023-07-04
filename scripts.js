@@ -341,15 +341,83 @@ function checkH8() {
 }
 
 
+function checkAnswers() {
+  
+  let answered1 = document.getElementById('answer1').value;
+  let answered2 = document.getElementById('answer2').value;
+  let answered3 = document.getElementById('answer3').value;
+  let answered4 = document.getElementById('answer4').value;
+  let answered5 = document.getElementById('answer5').value;
+  let answered6 = document.getElementById('answer6').value;
+  let answered7 = document.getElementById('answer7').value;
+  let answered8 = document.getElementById('answer8').value;
 
-/*
-2:
-  2 = 4
-  1 = 2
-  3 = 6
-  4 = 3
-  5 = 1
-  6 = 5
-  7 = 8
-  8 = 7
-*/
+  if (answered1 == '' || answered2 == '' || answered3 == '' || answered4 == '' || answered5 == '' || answered6 == '' || answered7 == '' || answered8 == '') {
+    alert("Please fill in all the fields.");
+  }
+
+  if (answered1 == 2) {
+    answer1.classList.remove('wrong');
+    answer1.classList.add('correct');
+  } else {
+    answer1.classList.remove('correct');
+    answer1.classList.add('wrong');
+  }
+
+  if (answered2 == 4) {
+    answer2.classList.remove('wrong');
+    answer2.classList.add('correct');
+  } else {
+    answer2.classList.remove('correct');
+    answer2.classList.add('wrong');
+  }
+
+  if (answered3 == 6) {
+    answer3.classList.remove('wrong');
+    answer3.classList.add('correct');
+  } else {
+    answer3.classList.remove('correct');
+    answer3.classList.add('wrong');
+  }
+
+  if (answered4 == 3) {
+    answer4.classList.remove('wrong');
+    answer4.classList.add('correct');
+  } else {
+    answer4.classList.remove('correct');
+    answer4.classList.add('wrong');
+  }
+
+  if (answered5 == 1) {
+    answer5.classList.remove('wrong');
+    answer5.classList.add('correct');
+  } else {
+    answer5.classList.remove('correct');
+    answer5.classList.add('wrong');
+  }
+
+  if (answered6 == 5) {
+    answer6.classList.remove('wrong');
+    answer6.classList.add('correct');
+  } else {
+    answer6.classList.remove('correct');
+    answer6.classList.add('wrong');
+  }
+
+  if (answered7 == 8) {
+    answer7.classList.remove('wrong');
+    answer7.classList.add('correct');
+  } else {
+    answer7.classList.remove('correct');
+    answer7.classList.add('wrong');
+  }
+
+  if (answered8 == 7) {
+    answer8.classList.remove('wrong');
+    answer8.classList.add('correct');
+  } else {
+    answer8.classList.remove('correct');
+    answer8.classList.add('wrong');
+  }
+
+}
