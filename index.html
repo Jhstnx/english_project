@@ -1,236 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles.css" />
-    <title>English project</title>
-  </head>
 
-  <body>
-    <div class="header">
-      <div class="names">
-        <h2>Jhostin Gonzalez</h2>
-        <h2>Juan David Orozco</h2>
-        <h2>Brayan Baena</h2>
-      </div>
-      <h3 class="grade">11°1</h3>
-      <h1 class="tittle">Activity 3</h1>
-      <h3 class="info">
-        In this activity we will work on the analysis of images and based on
-        this we will answer some questions
-      </h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles.css" />
+  <title>English project</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="names">
+      <h2>Jhostin Gonzalez</h2>
+      <h2>Juan David Orozco</h2>
+      <h2>Brayan Baena</h2>
+      <h2>-BeJuantiox colaborador-</h2>
     </div>
+    <h3 class="grade">11°1</h3>
+    <h1 class="tittle">Activity 3</h1>
+    <h3 class="info">
+      In this activity we will work on the analysis of images and based on
+      this we will answer some questions
+    </h3>
+  </div>
 
-    <div class="firstTarget">
-      <h2>
-        1. Select the correct squares according to the clothing or objects that
-        the image has
-      </h2>
-    </div>
+  <div class="firstTarget">
+    <h2>
+      1. Select the correct squares according to the clothing or objects that
+      the image has
+    </h2>
+  </div>
 
-    <div class="activityFirst">
-      <div class="informationBox">
-        <h1 class="numeration">1</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 1.jpg"
-          alt="imagen1"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionA1" onclick="checkA1()">Tie</h2>
-          <h2 class="options" id="optionA2" onclick="checkA2()">Short</h2>
-          <h2 class="options" id="optionA3" onclick="checkA3()">Joggers</h2>
-          <h2 class="options" id="optionA4" onclick="checkA4()">Blazer</h2>
-          <h2 class="options" id="optionA5" onclick="checkA5()">Shoes</h2>
-          <h2 class="options" id="optionA6" onclick="checkA6()">Cap</h2>
-          <h2 class="options" id="optionA7" onclick="checkA7()">Earrings</h2>
-          <h2 class="options" id="optionA8" onclick="checkA8()">Glasses</h2>
-        </div>
-      </div>
-      <div class="informationBox">
-        <h1 class="numeration">2</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 2.jpg"
-          alt="imagen2"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionB1" onclick="checkB1()">Tennis</h2>
-          <h2 class="options" id="optionB2" onclick="checkB2()">Pants</h2>
-          <h2 class="options" id="optionB3" onclick="checkB3()">Shirt</h2>
-          <h2 class="options" id="optionB4" onclick="checkB4()">Chain</h2>
-          <h2 class="options" id="optionB5" onclick="checkB5()">Shoes</h2>
-          <h2 class="options" id="optionB6" onclick="checkB6()">Cap</h2>
-          <h2 class="options" id="optionB7" onclick="checkB7()">Earrings</h2>
-          <h2 class="options" id="optionB8" onclick="checkB8()">License</h2>
-        </div>
-      </div>
-      <div class="informationBox">
-        <h1 class="numeration">3</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 3.jpg"
-          alt="imagen3"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionC1" onclick="checkC1()">Earrings</h2>
-          <h2 class="options" id="optionC2" onclick="checkC2()">Short</h2>
-          <h2 class="options" id="optionC3" onclick="checkC3()">Dress</h2>
-          <h2 class="options" id="optionC4" onclick="checkC4()">Blazer</h2>
-          <h2 class="options" id="optionC5" onclick="checkC5()">Glasses</h2>
-          <h2 class="options" id="optionC6" onclick="checkC6()">Shoes</h2>
-          <h2 class="options" id="optionC7" onclick="checkC7()">Heels</h2>
-          <h2 class="options" id="optionC8" onclick="checkC8()">Cell phone</h2>
-        </div>
-      </div>
-      <div class="informationBox">
-        <h1 class="numeration">4</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 4.jpg"
-          alt="imagen4"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionD1" onclick="checkD1()">Tie</h2>
-          <h2 class="options" id="optionD2" onclick="checkD2()">Short</h2>
-          <h2 class="options" id="optionD3" onclick="checkD3()">About</h2>
-          <h2 class="options" id="optionD4" onclick="checkD4()">Pants</h2>
-          <h2 class="options" id="optionD5" onclick="checkD5()">Shoes</h2>
-          <h2 class="options" id="optionD6" onclick="checkD6()">Cap</h2>
-          <h2 class="options" id="optionD7" onclick="checkD7()">Earrings</h2>
-          <h2 class="options" id="optionD8" onclick="checkD8()">Tennis</h2>
-        </div>
-      </div>
-      <div class="informationBox">
-        <h1 class="numeration">5</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 5.jpg"
-          alt="imagen5"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionE1" onclick="checkE1()">Tie</h2>
-          <h2 class="options" id="optionE2" onclick="checkE2()">Short</h2>
-          <h2 class="options" id="optionE3" onclick="checkE3()">Tennis</h2>
-          <h2 class="options" id="optionE4" onclick="checkE4()">Blazer</h2>
-          <h2 class="options" id="optionE5" onclick="checkE5()">Shoes</h2>
-          <h2 class="options" id="optionE6" onclick="checkE6()">Hat</h2>
-          <h2 class="options" id="optionE7" onclick="checkE7()">T-shirt</h2>
-          <h2 class="options" id="optionE8" onclick="checkE8()">Glasses</h2>
-        </div>
-      </div>
-      <div class="informationBox">
-        <h1 class="numeration">6</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 6.png"
-          alt="imagen6"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionF1" onclick="checkF1()">Earrings</h2>
-          <h2 class="options" id="optionF2" onclick="checkF2()">Pants</h2>
-          <h2 class="options" id="optionF3" onclick="checkF3()">Hat</h2>
-          <h2 class="options" id="optionF4" onclick="checkF4()">Tennis</h2>
-          <h2 class="options" id="optionF5" onclick="checkF5()">Shoes</h2>
-          <h2 class="options" id="optionF6" onclick="checkF6()">racket</h2>
-          <h2 class="options" id="optionF7" onclick="checkF7()">Shirt</h2>
-          <h2 class="options" id="optionF8" onclick="checkF8()">Glasses</h2>
-        </div>
-      </div>
-      <div class="informationBox">
-        <h1 class="numeration">7</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 7.webp"
-          alt="imagen7"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionG1" onclick="checkG1()">Tie</h2>
-          <h2 class="options" id="optionG2" onclick="checkG2()">Short</h2>
-          <h2 class="options" id="optionG3" onclick="checkG3()">Joggers</h2>
-          <h2 class="options" id="optionG4" onclick="checkG4()">Cap</h2>
-          <h2 class="options" id="optionG5" onclick="checkG5()">Shoes</h2>
-          <h2 class="options" id="optionG6" onclick="checkG6()">T-shirt</h2>
-          <h2 class="options" id="optionG7" onclick="checkG7()">Book</h2>
-          <h2 class="options" id="optionG8" onclick="checkG8()">Glasses</h2>
-        </div>
-      </div>
-      <div class="informationBox" l>
-        <h1 class="numeration">8</h1>
-        <img
-          class="character"
-          src="../images/images_a1/imagen 8.webp"
-          alt="imagen8"
-        />
-        <div class="boxOptions">
-          <h2 class="options" id="optionH1" onclick="checkH1()">Book</h2>
-          <h2 class="options" id="optionH2" onclick="checkH2()">Tennis</h2>
-          <h2 class="options" id="optionH3" onclick="checkH3()">Short</h2>
-          <h2 class="options" id="optionH4" onclick="checkH4()">Blazer</h2>
-          <h2 class="options" id="optionH5" onclick="checkH5()">Bag</h2>
-          <h2 class="options" id="optionH6" onclick="checkH6()">Cap</h2>
-          <h2 class="options" id="optionH7" onclick="checkH7()">Earrings</h2>
-          <h2 class="options" id="optionH8" onclick="checkH8()">Shirt</h2>
-        </div>
+  <div class="activityFirst">
+    <div class="informationBox">
+      <h1 class="numeration">1</h1>
+      <img class="character" src="../images/images_a1/imagen 1.jpg" alt="imagen1" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionA1" onclick="checkA1()">Tie</h2>
+        <h2 class="options" id="optionA2" onclick="checkA2()">Short</h2>
+        <h2 class="options" id="optionA3" onclick="checkA3()">Joggers</h2>
+        <h2 class="options" id="optionA4" onclick="checkA4()">Blazer</h2>
+        <h2 class="options" id="optionA5" onclick="checkA5()">Shoes</h2>
+        <h2 class="options" id="optionA6" onclick="checkA6()">Cap</h2>
+        <h2 class="options" id="optionA7" onclick="checkA7()">Earrings</h2>
+        <h2 class="options" id="optionA8" onclick="checkA8()">Glasses</h2>
       </div>
     </div>
-
-    <div class="secondTarget">
-      <h2>
-        2. Select the correct squares according to the clothing or objects that
-        the image has
-      </h2>
-    </div>
-
-    <div class="descriptionsBox">
-      <div class="description">
-        <span>
-          <strong>1. </strong>Woman with short hair, white skin and a
-          license.</span
-        >
-        <input type="text" class="answerBox" />
-      </div>
-      <div class="description">
-        <span> <strong>2. </strong>Long hair girl who works in courier.</span>
-        <input type="text" class="answerBox" />
-      </div>
-      <div class="description">
-        <span> <strong>3. </strong>Elderly man who enjoys playing tennis.</span>
-        <input type="text" class="answerBox" />
-      </div>
-      <div class="description">
-        <span> <strong>4. </strong>Woman with glasses and brown hair.</span>
-        <input type="text" class="answerBox" />
-      </div>
-      <div class="description">
-        <span>
-          <strong>5. </strong>He is tall, has brown hair and dresses very
-          elegantly.</span
-        >
-        <input type="text" class="answerBox" />
-      </div>
-      <div class="description">
-        <span>
-          <strong>6. </strong>Woman with slightly long brown hair and wearing a
-          hat.</span
-        >
-        <input type="text" class="answerBox" />
-      </div>
-      <div class="description">
-        <span>
-          <strong>7. </strong>Girl with gray hair, small and has a bag.</span
-        >
-        <input type="text" class="answerBox" />
-      </div>
-      <div class="description">
-        <span>
-          <strong>8. </strong>Small man with blond hair and blue tie.</span
-        >
-        <input type="text" class="answerBox" />
+    <div class="informationBox">
+      <h1 class="numeration">2</h1>
+      <img class="character" src="../images/images_a1/imagen 2.jpg" alt="imagen2" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionB1" onclick="checkB1()">Tennis</h2>
+        <h2 class="options" id="optionB2" onclick="checkB2()">Pants</h2>
+        <h2 class="options" id="optionB3" onclick="checkB3()">Shirt</h2>
+        <h2 class="options" id="optionB4" onclick="checkB4()">Chain</h2>
+        <h2 class="options" id="optionB5" onclick="checkB5()">Shoes</h2>
+        <h2 class="options" id="optionB6" onclick="checkB6()">Cap</h2>
+        <h2 class="options" id="optionB7" onclick="checkB7()">Earrings</h2>
+        <h2 class="options" id="optionB8" onclick="checkB8()">License</h2>
       </div>
     </div>
+    <div class="informationBox">
+      <h1 class="numeration">3</h1>
+      <img class="character" src="../images/images_a1/imagen 3.jpg" alt="imagen3" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionC1" onclick="checkC1()">Earrings</h2>
+        <h2 class="options" id="optionC2" onclick="checkC2()">Short</h2>
+        <h2 class="options" id="optionC3" onclick="checkC3()">Dress</h2>
+        <h2 class="options" id="optionC4" onclick="checkC4()">Blazer</h2>
+        <h2 class="options" id="optionC5" onclick="checkC5()">Glasses</h2>
+        <h2 class="options" id="optionC6" onclick="checkC6()">Shoes</h2>
+        <h2 class="options" id="optionC7" onclick="checkC7()">Heels</h2>
+        <h2 class="options" id="optionC8" onclick="checkC8()">Cell phone</h2>
+      </div>
+    </div>
+    <div class="informationBox">
+      <h1 class="numeration">4</h1>
+      <img class="character" src="../images/images_a1/imagen 4.jpg" alt="imagen4" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionD1" onclick="checkD1()">Tie</h2>
+        <h2 class="options" id="optionD2" onclick="checkD2()">Short</h2>
+        <h2 class="options" id="optionD3" onclick="checkD3()">About</h2>
+        <h2 class="options" id="optionD4" onclick="checkD4()">Pants</h2>
+        <h2 class="options" id="optionD5" onclick="checkD5()">Shoes</h2>
+        <h2 class="options" id="optionD6" onclick="checkD6()">Cap</h2>
+        <h2 class="options" id="optionD7" onclick="checkD7()">Earrings</h2>
+        <h2 class="options" id="optionD8" onclick="checkD8()">Tennis</h2>
+      </div>
+    </div>
+    <div class="informationBox">
+      <h1 class="numeration">5</h1>
+      <img class="character" src="../images/images_a1/imagen 5.jpg" alt="imagen5" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionE1" onclick="checkE1()">Tie</h2>
+        <h2 class="options" id="optionE2" onclick="checkE2()">Short</h2>
+        <h2 class="options" id="optionE3" onclick="checkE3()">Tennis</h2>
+        <h2 class="options" id="optionE4" onclick="checkE4()">Blazer</h2>
+        <h2 class="options" id="optionE5" onclick="checkE5()">Shoes</h2>
+        <h2 class="options" id="optionE6" onclick="checkE6()">Hat</h2>
+        <h2 class="options" id="optionE7" onclick="checkE7()">T-shirt</h2>
+        <h2 class="options" id="optionE8" onclick="checkE8()">Glasses</h2>
+      </div>
+    </div>
+    <div class="informationBox">
+      <h1 class="numeration">6</h1>
+      <img class="character" src="../images/images_a1/imagen 6.png" alt="imagen6" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionF1" onclick="checkF1()">Earrings</h2>
+        <h2 class="options" id="optionF2" onclick="checkF2()">Pants</h2>
+        <h2 class="options" id="optionF3" onclick="checkF3()">Hat</h2>
+        <h2 class="options" id="optionF4" onclick="checkF4()">Tennis</h2>
+        <h2 class="options" id="optionF5" onclick="checkF5()">Shoes</h2>
+        <h2 class="options" id="optionF6" onclick="checkF6()">racket</h2>
+        <h2 class="options" id="optionF7" onclick="checkF7()">Shirt</h2>
+        <h2 class="options" id="optionF8" onclick="checkF8()">Glasses</h2>
+      </div>
+    </div>
+    <div class="informationBox">
+      <h1 class="numeration">7</h1>
+      <img class="character" src="../images/images_a1/imagen 7.webp" alt="imagen7" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionG1" onclick="checkG1()">Tie</h2>
+        <h2 class="options" id="optionG2" onclick="checkG2()">Short</h2>
+        <h2 class="options" id="optionG3" onclick="checkG3()">Joggers</h2>
+        <h2 class="options" id="optionG4" onclick="checkG4()">Cap</h2>
+        <h2 class="options" id="optionG5" onclick="checkG5()">Shoes</h2>
+        <h2 class="options" id="optionG6" onclick="checkG6()">T-shirt</h2>
+        <h2 class="options" id="optionG7" onclick="checkG7()">Book</h2>
+        <h2 class="options" id="optionG8" onclick="checkG8()">Glasses</h2>
+      </div>
+    </div>
+    <div class="informationBox" l>
+      <h1 class="numeration">8</h1>
+      <img class="character" src="../images/images_a1/imagen 8.webp" alt="imagen8" />
+      <div class="boxOptions">
+        <h2 class="options" id="optionH1" onclick="checkH1()">Book</h2>
+        <h2 class="options" id="optionH2" onclick="checkH2()">Tennis</h2>
+        <h2 class="options" id="optionH3" onclick="checkH3()">Short</h2>
+        <h2 class="options" id="optionH4" onclick="checkH4()">Blazer</h2>
+        <h2 class="options" id="optionH5" onclick="checkH5()">Bag</h2>
+        <h2 class="options" id="optionH6" onclick="checkH6()">Cap</h2>
+        <h2 class="options" id="optionH7" onclick="checkH7()">Earrings</h2>
+        <h2 class="options" id="optionH8" onclick="checkH8()">Shirt</h2>
+      </div>
+    </div>
+  </div>
 
-    <script src="../scripts.js"></script>
-  </body>
+  <div class="secondTarget">
+    <h2>
+      2. Select the correct squares according to the clothing or objects that
+      the image has
+    </h2>
+  </div>
+
+  <div class="descriptionsBox">
+    <div class="description">
+      <span>
+        <strong>1. </strong>Woman with short hair, white skin and a
+        license.</span>
+      <input type="text" class="answerBox" />
+    </div>
+    <div class="description">
+      <span> <strong>2. </strong>Long hair girl who works in courier.</span>
+      <input type="text" class="answerBox" />
+    </div>
+    <div class="description">
+      <span> <strong>3. </strong>Elderly man who enjoys playing tennis.</span>
+      <input type="text" class="answerBox" />
+    </div>
+    <div class="description">
+      <span> <strong>4. </strong>Woman with glasses and brown hair.</span>
+      <input type="text" class="answerBox" />
+    </div>
+    <div class="description">
+      <span>
+        <strong>5. </strong>He is tall, has brown hair and dresses very
+        elegantly.</span>
+      <input type="text" class="answerBox" />
+    </div>
+    <div class="description">
+      <span>
+        <strong>6. </strong>Woman with slightly long brown hair and wearing a
+        hat.</span>
+      <input type="text" class="answerBox" />
+    </div>
+    <div class="description">
+      <span>
+        <strong>7. </strong>Girl with gray hair, small and has a bag.</span>
+      <input type="text" class="answerBox" />
+    </div>
+    <div class="description">
+      <span>
+        <strong>8. </strong>Small man with blond hair and blue tie.</span>
+      <input type="text" class="answerBox" />
+    </div>
+  </div>
+
+  <header class="headerQuiz">
+    <h1>QUIZ</h1>
+    <P>In this quiz we are going to analyze some images and we will select the answer
+      that you think is correct</P>
+  </header>
+
+  <div class="containerQuiz">
+    <section class="quiz" id="p0">
+      <h3>1. Astronauts go towards Mercury in:</h3>
+      <label class="questionsQuiz">
+        <input type="radio" value="1" name="p0"> <strong>A.</strong> A rocket.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="2" name="p0"> <strong>B.</strong> An aeroplane.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="3" name="p0"> <strong>C.</strong> A light aircraft.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="4" name="p0"> <strong>D.</strong> A spaceship.
+      </label>
+    </section>
+    <section class="quiz" id="p1">
+      <h3>2. In the next picture there is:</h3>
+      <label class="questionsQuiz">
+        <input type="radio" value="1" name="p1"> <strong>A.</strong> A computer, a chair, a lamp, a child.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="2" name="p1"> <strong>B.</strong> A computer, an offices chair, a desk,
+        a secretary.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="3" name="p1"> <strong>C.</strong> A computer, a chair, a diary, a girl.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="4" name="p1"> <strong>D.</strong> A computer, an offices chair, a table, 
+        a secretary.
+      </label>
+    </section>
+    <section class="quiz" id="p2">
+      <h3>3. He lost his math exam. So:</h3>
+      <label class="questionsQuiz">
+        <input type="radio" value="1" name="p2"> <strong>A.</strong> He is about smile.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="2" name="p2"> <strong>B.</strong> He began to cry.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="3" name="p2"> <strong>C.</strong> He is going to think about it.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="4" name="p2"> <strong>D.</strong> He feels embarrassed.
+      </label>
+    </section>
+    <section class="quiz" id="p3">
+      <h3>4. According to the picture, Mary:</h3>
+      <label class="questionsQuiz">
+        <input type="radio" value="1" name="p3"> <strong>A.</strong> Is playing with her puzzle.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="2" name="p3"> <strong>B.</strong> Is keeping her chess.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="3" name="p3"> <strong>C.</strong> is buying a set of cards.
+      </label>
+      <label class="questionsQuiz">
+        <input type="radio" value="4" name="p3"> <strong>D.</strong> Is looking for her drafts of Chinese game.
+      </label>
+    </section>
+  </div>
+
+  <footer>
+    <p class="footerText">Jhostin Gonzalez - 2023 - picos pa salome</p>
+  </footer>
+  <script src="../scripts.js"></script>
+</body>
+
 </html>
